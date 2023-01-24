@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/main.js" defer></script>
+    <title>Nana | Business Registration</title>
+</head>
+
+<body>
+    <div class="custom-container flex h-screen">
+        <div class="h-full flex flex-col justify-between w-[30%] max-w-[400px] bg-blue-900 p-10 py-5">
+            <div class="flex flex-col gap-2">
+                <div class="bg-white rounded p-5">
+                    <img class="max-h-[150px]" src="/images/register1.png" alt="register">
+                </div>
+                <div class="bg-white rounded p-5 text-sm">
+                    <p class="font-bold"> STEP 1</p>
+                    <p>Enter your <span class="font-medium">business information</span> here.</p>
+                    <p>Click on the <span class="font-medium">Submit</span> button once done.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="bg-white rounded p-5">
+                    <img src="/images/register2.png" alt="register" class="max-h-[150px]">
+                </div>
+                <div class="bg-white rounded p-5 text-sm">
+                    <p class="font-bold"> STEP 2</p>
+                    <p>Upon successful business registration, <span class="font-medium"> just Post Products</span> and
+                        leave the ads part for <span class="font-medium">Us.</span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="h-full w-[70%] p-10 pt-7 max-w-[1000px]">
+            <div class="">
+                <p class=" font-semibold"> <a href="/index.html">Home</a> / Business Registration /</p>
+            </div>
+            <div class="text-sm ">
+                <p class="text-2xl uppercase font-semibold mt-20">Register Your Business</p>
+                <div class="grid grid-cols-2 gap-7 mt-5">
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Business Name</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Business Email</label>
+                        <input type="email" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-2 gap-7 mt-5">
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">CAC Number</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Business Reg. No.</label>
+                        <input type="email" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-2 gap-7 mt-5">
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Business Address Line 1</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Business Address Line 2</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-7 mt-5">
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">State</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">LGA</label>
+                        <input type="text" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-7 mt-5">
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Password</label>
+                        <input type="password" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="b-name" class="mb-.5">Confirm Password</label>
+                        <input type="password" class="border px-3 py-2 rounded outline-none text-sm">
+                    </div>
+                </div>
+                <div class="flex justify-end mt-7">
+                    <button data-next-btn
+                        class="text-white bg-green-500 px-10 text-sm py-2 rounded ml-auto font-medium">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
