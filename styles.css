@@ -1,0 +1,17 @@
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+header a:hover {
+  color: blue !important;
+}
+
+header a.business:hover {
+  color: white !important;
+}
+
+.hero {
+  background: url("./images//image1.jpg");
+}

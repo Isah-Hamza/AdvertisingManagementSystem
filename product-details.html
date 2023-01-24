@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+    <div class="custom-container bg-blue-100">
+        <header class="h-16 w-full flex justify-between items-center px-10">
+            <div class="font-semibold text-base flex items-center gap-2">
+                <div class="w-4 h-4 rounded bg-white"></div>
+                Your Logo
+            </div>
+            <div>
+                <ul class="flex items-center gap-5 text-sm font-medium">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="/login.html">Login</a>
+                    </li>
+                    <li
+                        class="hover:bg-green-700 transition-all duration-500 ease-in-out ml-5 px-5 py-2 rounded bg-green-500 text-white font-medium">
+                        <a href="#" class="business">Business Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="pt-10 px-10">
+            <div class="max-w-[1000px] mx-auto">
+                <p class="text-lg font-semibold">Home / Product Details /</p>
+            </div>
+            <div class="grid grid-cols-[.5fr,.5fr] gap-10 max-w-[1000px] mx-auto mt-16">
+                <div class="">
+                    <img src="/images/person.jpg" alt="person" class="max-h-[650px] w-full rounded-lg">
+                </div>
+                <div class="flex flex-col py-5">
+                    <div class="flex justify-between font-semibold w-full">
+                        <p class=''>Product Three</p>
+                        <p>NGN 35,000</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <p>3.5</p>
+                        <div class="flex items-center ">
+                            <img src="./images/star-filled.png" alt="filled" class="w-4">
+                            <img src="./images/star-filled.png" alt="filled" class="w-4">
+                            <img src="./images/star-filled.png" alt="filled" class="w-4">
+                            <img src="./images/star-filled.png" alt="filled" class="w-4">
+                            <img src="./images/star-unfilled.png" alt="filled" class="w-4">
+                        </div>
+                    </div>
+                    <div class="mt-10 opacity-80">
+                        <p class="font-semibold opacity-95 mb-2">Description</p>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae
+                            facere
+                            omnis voluptates provident quidem at, fugiat ab sapiente, vero laboriosam ullam harum
+                            mollitia, expedita ipsum? Fugit quae natus fuga.</p>
+                        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit ab
+                            dignissimos
+                            asperiores commodi aliquid sequi mollitia ea minus unde.</p>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-10 ">
+                        <button class="text-sm font-medium px-5 py-2 rounded text-white bg-green-500">Place a Call
+                        </button>
+                        <button class="text-sm font-medium px-5 py-2 rounded text-white bg-[coral]">Contact Owner
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending mt-28">
+                <p class="text-2xl font-medium text-center">You May Also Like 🔥</p>
+                <div
+                    class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 max-w-[1000px] mx-auto">
+                    <div class="group relative">
+                        <div
+                            class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                            <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                        </div>
+                        <div class="mt-4 flex justify-between">
+                            <div>
+                                <h3 class="text-sm text-gray-700">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="font-medium absolute inset-0"></span>
+                                        Product One </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500">Black</p>
+                            </div>
+                            <p class="text-sm font-medium text-gray-900">$35</p>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                            <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                        </div>
+                        <div class="mt-4 flex justify-between">
+                            <div>
+                                <h3 class="text-sm text-gray-700">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="font-medium absolute inset-0"></span>
+                                        Product Two
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500">White</p>
+                            </div>
+                            <p class="text-sm font-medium text-gray-900">$35</p>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                            <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                        </div>
+                        <div class="mt-4 flex justify-between">
+                            <div>
+                                <h3 class="text-sm text-gray-700">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="font-medium absolute inset-0"></span>
+                                        Product Three
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500">Black</p>
+                            </div>
+                            <p class="text-sm font-medium text-gray-900">$35</p>
+                        </div>
+                    </div>
+
+                    <!-- More products... -->
+                </div>
+            </div>
+        </main>
+        <footer class="mt-24 bg-blue-100 px-10 pb-5 flex justify-between w-full">
+            <div class="flex items-cente gap-2 text-sm">
+                <span> &copy; </span>
+                <span class="font-medium"> Your Logo </span>
+                <span> | </span>
+                <a href="#"> Terms and Condition </a>
+                <span> | </span>
+                <a href="#"> Privacy </a>
+                <span> | </span>
+                <a href="#"> About Us </a>
+                <!-- <span> | </span> -->
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="/images/icons8-facebook-48 (2).png" class="w-6 cursor-pointer" />
+                <img src="/images/icons8-instagram-48.png" class="w-6 cursor-pointer" />
+                <img src="/images/icons8-whatsapp-48.png" class="w-6 cursor-pointer" />
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

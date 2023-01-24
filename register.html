@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+
+<body class="min-h-screen flex flex-col bg-blue-100">
+    <header class="h-16 w-full flex justify-between items-center px-10">
+        <div class="font-semibold text-base flex items-center gap-2">
+            <div class="w-4 h-4 rounded bg-white"></div>
+            Your Logo
+        </div>
+        <div>
+            <ul class="flex items-center gap-5 text-sm font-medium">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Register</a>
+                </li>
+                <li>
+                    <a href="/login.html">Login</a>
+                </li>
+                <li
+                    class="hover:bg-green-700 transition-all duration-500 ease-in-out ml-5 px-5 py-2 rounded bg-green-500 text-white font-medium">
+                    <a href="#" class="business">Business Registration</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form action="#" method="post" data-register
+            class="min-h-screen grid place-content-center px-5 sm:px-10 py-12 overflow-auto">
+            <div class="bg-white rounded px-5 sm:px-8 p-8 mt-4 w-full sm:w-[500px]">
+                <p class="text-2xl font-semibold text-center">Registration Form</p>
+                <p class="text-center mt-5 text-sm opacity-90 ">Fill out this form to make your products visible to the
+                    world.
+                    <br>
+                    Fields marked <span class="text-[tomato]">*</span> are required.
+                </p>
+                <div class="text-sm mt-10">
+                    <div class="grid sm:grid-cols-2 gap-4  mt-4 sm:mt-5">
+                        <div class="">
+                            <label for="name">Full Name *</label>
+                            <input required name="name" id="name" class="mt-1 px-3 py-2 border outline-none w-full"
+                                type="text" placeholder="John Doe">
+                        </div>
+                        <div class="">
+                            <label for="phone">Phone Number *</label>
+                            <input required id="phone" name="phone" class="mt-1 px-3 py-2 border outline-none w-full"
+                                type="text" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="grid mt-4 sm:mt-5">
+                        <label for="email">Email Address *</label>
+                        <input required class="px-3 py-2 mt-1 border outline-none" type="email" name="email" id="email"
+                            placeholder="user@example.com">
+                    </div>
+                    <div class="grid sm:grid-cols-2 gap-4 mt-4 sm:mt-5">
+                        <div class="grid">
+                            <label for="category">Category</label>
+                            <select class="border outline-none px-3 py-2 mt-1" name="class_category" id="category">
+                                <option value="">Select one...</option>
+                                <option value="customer">Customer</option>
+                                <option value="business-owner">Business Owner</option>
+                            </select>
+                        </div>
+                        <div class="grid">
+                            <label for="payment_mode">Payment Mode</label>
+                            <select class="border outline-none px-3 py-2 mt-1" name="payment_mode" id="payment_mode">
+                                <option value="">Select one...</option>
+                                <option value="one time">One Time</option>
+                                <option value="monthly">Monthly</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid mt-4 sm:mt-5">
+                        <label for="password">Password *</label>
+                        <input required autocomplete="new-password" type="password"
+                            class="w-full border outline-none px-3 py-2 mt-1" name='password' id="password"
+                            placeholder="Password">
+                    </div>
+                    <div class="grid mt-4 sm:mt-5">
+                        <label for="password">Confirm Password *</label>
+                        <input required autocomplete="new-password" type="password"
+                            class="w-full border outline-none px-3 py-2 mt-1" name='password' id="password"
+                            placeholder="Confirm password">
+                    </div>
+                    <div class="flex justify-center mt-10">
+                        <button type="submit"
+                            class="mx-auto border-none py-2.5 px-12 bg-green-500 rounded text-white">Register</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
