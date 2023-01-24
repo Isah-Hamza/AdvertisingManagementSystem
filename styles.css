@@ -15,3 +15,7 @@ header a.business:hover {
 .hero {
   background: url("./images//image1.jpg");
 }
+
+button.active{
+  font-weight: 700;
+}
